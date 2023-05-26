@@ -1140,15 +1140,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin \
     vendor/nokia/NB1/proprietary/vendor/firmware/TP_Firmware_JDI:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_JDI \
     vendor/nokia/NB1/proprietary/vendor/firmware/TP_Firmware_LG4946:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_LG4946 \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
-    vendor/nokia/NB1/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
     vendor/nokia/NB1/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/nokia/NB1/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/nokia/NB1/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
