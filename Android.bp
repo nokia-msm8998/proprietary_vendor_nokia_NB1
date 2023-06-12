@@ -66,17 +66,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "nokia",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CACertService",
 	owner: "nokia",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -209,12 +198,6 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "nokia",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 dex_import {
