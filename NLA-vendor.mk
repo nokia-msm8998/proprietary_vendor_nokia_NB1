@@ -477,8 +477,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NLA/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libactuator_ak7371_color_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_color_fih.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libactuator_ak7371_mono_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_mono_fih.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libactuator_ak7371_tele_a1n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_tele_a1n.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libactuator_ak7371_wide_a1n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_wide_a1n.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
@@ -638,26 +636,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_imx258_single_mono_nb1_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_single_mono_nb1_video_4k.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_imx258_single_mono_nb1_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_single_mono_nb1_zsl_preview_3a.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_imx258_single_mono_nb1_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_single_mono_nb1_zsl_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_common.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_hfr_60.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_liveshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_preview.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_snapshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video_4k.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_default_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_default_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_postproc.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_preview.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_snapshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_video.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_video_4k.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_video_3a.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_4k_preview_3a.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_4k_video_3a.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_common.so \
@@ -687,55 +665,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_video_4k.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_zsl_preview_3a.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_zsl_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_4k_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_4k_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_common.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_hfr_60.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_liveshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_preview.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_snapshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video_4k.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_default_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_default_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_liveshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_postproc.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_preview.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_snapshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_versions.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_video_4k.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_4k_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_4k_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_common.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_120.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_60.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_90.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_liveshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_preview.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_snapshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_video.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_video_4k.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_default_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_default_video.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_default_video_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_120.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_120_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_60.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_60_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_90.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_90_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_liveshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_postproc.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_preview.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_snapshot.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_versions.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_video_4k.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_zsl_preview_3a.so \
-    vendor/nokia/NLA/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_zsl_video_3a.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
     vendor/nokia/NLA/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so \
