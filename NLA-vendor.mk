@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NLA/proprietary/vendor/lib/sensors.rangefinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.rangefinder.so \
     vendor/nokia/NLA/proprietary/vendor/lib64/sensors.rangefinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.rangefinder.so \
     vendor/nokia/NLA/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
+    vendor/nokia/NLA/proprietary/vendor/bin/qdcm_calib_data_JDI_Dual_nt36850_cmd_mode_dsi_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/bin/qdcm_calib_data_JDI_Dual_nt36850_cmd_mode_dsi_panel_without_DSC.xml \
+    vendor/nokia/NLA/proprietary/vendor/bin/qdcm_calib_data_LGD_Dual_DSI_cmd_mode_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/bin/qdcm_calib_data_LGD_Dual_DSI_cmd_mode_panel_without_DSC.xml \
     vendor/nokia/NLA/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/nokia/NLA/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/nokia/NLA/proprietary/vendor/etc/acdbdata/NB1/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/NB1/Bluetooth_cal.acdb \
