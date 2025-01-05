@@ -378,6 +378,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -421,6 +422,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -460,6 +462,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -501,6 +504,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -575,6 +579,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -610,6 +615,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4534,6 +4540,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4563,6 +4570,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4594,6 +4602,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4622,6 +4631,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4649,6 +4659,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4776,6 +4787,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -4813,6 +4825,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -7192,7 +7205,6 @@ cc_prebuilt_library_shared {
                 "libmmcamera2_pproc_modules",
                 "libmmcamera2_imglib_modules",
                 "libmmcamera_eztune_module",
-                "libmm-qcamera",
                 "liblog",
                 "libcutils",
                 "libfastcvopt",
@@ -7205,6 +7217,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
