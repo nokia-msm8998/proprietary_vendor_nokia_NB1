@@ -388,9 +388,7 @@ PRODUCT_PACKAGES += \
     fingerprint.msm8998 \
     gxfingerprint.default \
     libfp_client \
-    libfpjni \
     libfpservice \
-    libqfp-service \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
     libFastRPC_AUE_Forward_skel \
@@ -415,5 +413,4 @@ PRODUCT_PACKAGES += \
     gx_fpd \
     qdcm_calib_data_JDI_Dual_nt36850_cmd_mode_dsi_panel_without_DSC.xml \
     qdcm_calib_data_LGD_Dual_DSI_cmd_mode_panel_without_DSC.xml \
-    qfp-daemon \
     sensors.qti

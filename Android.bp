@@ -7859,42 +7859,12 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libfp_client.so",
             ],
             shared_libs: [
-                "libbinder",
-                "libcutils",
-                "libutils",
-                "libstdc++_vendor",
-                "libm",
-                "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libfpjni",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libfpjni.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "libandroid_runtime",
-                "libfp_client",
-                "libnativehelper",
                 "liblog",
-                "libm",
+                "libbinder",
+                "libcutils",
+                "libutils",
                 "libstdc++_vendor",
+                "libm",
                 "libc",
                 "libdl",
             ],
@@ -7917,6 +7887,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libfpservice.so",
             ],
             shared_libs: [
+                "liblog",
+                "libbinder_shim",
                 "libfp_client",
                 "libbinder",
                 "libcutils",
@@ -7925,39 +7897,6 @@ cc_prebuilt_library_shared {
                 "libstdc++_vendor",
                 "libm",
                 "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqfp-service",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqfp-service.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libdiag",
-                "libutils",
-                "libQSEEComAPI",
-                "libhidlbase",
-                "libhidltransport",
-                "android.hardware.biometrics.fingerprint@2.1",
-                "vendor.qti.hardware.fingerprint@1.0",
-                "libc++",
-                "libc",
-                "libm",
                 "libdl",
             ],
         },
@@ -8175,7 +8114,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "libfakelogprint",
-                "libshim_binder",
+                "libbinder_shim",
                 "liblog",
                 "libbinder",
                 "libcutils",
@@ -8213,37 +8152,6 @@ sh_binary {
     owner: "nokia",
     src: "proprietary/vendor/bin/qdcm_calib_data_LGD_Dual_DSI_cmd_mode_panel_without_DSC.xml",
     filename: "qdcm_calib_data_LGD_Dual_DSI_cmd_mode_panel_without_DSC.xml",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "qfp-daemon",
-    owner: "nokia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/qfp-daemon",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "libqfp-service",
-                "liblog",
-                "libhidltransport",
-                "android.hardware.biometrics.fingerprint@2.1",
-                "vendor.qti.hardware.fingerprint@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
     soc_specific: true,
 }
 
