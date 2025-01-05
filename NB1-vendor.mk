@@ -381,6 +381,7 @@ PRODUCT_PACKAGES += \
     gxfingerprint.default \
     libfp_client \
     libfpservice \
+    libpn548ad_fw \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
     libFastRPC_AUE_Forward_skel \
