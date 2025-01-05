@@ -96,7 +96,6 @@ PRODUCT_PACKAGES += \
     libsensor1 \
     libsensor_reg \
     libsns_low_lat_stream_stub \
-    libvideoutils \
     sensor_calibrate \
     sensors.rangefinder \
     sensors.ssc \
@@ -113,8 +112,6 @@ PRODUCT_PACKAGES += \
     libadiertac \
     libadm \
     libadpcmdec \
-    libadsp_hvx_callback_skel \
-    libadsp_hvx_stub \
     libaoa \
     libarcsoft_beautyshot \
     libarcsoft_beautyshot_video_algorithm \
@@ -270,7 +267,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3l8_front_nb1_zsl_video_3a \
     libdepthmapwrapper \
     libflash_pmic \
-    libhal_dbg \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
@@ -304,7 +300,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_imx258_color_fih \
     libmmcamera_imx258_front_fih \
     libmmcamera_imx258_mono_fih \
-    libmmcamera_interface \
     libmmcamera_irs1645 \
     libmmcamera_isp_abf48 \
     libmmcamera_isp_aec_bg_stats47 \
@@ -371,15 +366,12 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
-    libmmjpeg_interface \
-    libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
     libmpbase \
     libois_bu24218 \
     libois_bu63165 \
     libois_lc898122 \
-    libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
