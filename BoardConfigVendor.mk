@@ -10,7 +10,6 @@ AB_OTA_PARTITIONS += \
     cmnlib64 \
     devcfg \
     dsp \
-    hidden \
     hyp \
     keymaster \
     mdtp \
