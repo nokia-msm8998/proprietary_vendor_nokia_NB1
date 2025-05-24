@@ -95,216 +95,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "sound_trigger.primary.msm8998",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libtinyalsa",
-                "libaudioroute",
-                "libexpat",
-                "libhardware_legacy",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libtinyalsa",
-                "libaudioroute",
-                "libexpat",
-                "libhardware_legacy",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libgcs-calwrapper",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgcs-calwrapper.so",
-            ],
-            shared_libs: [
-                "libgcs-osal",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgcs-calwrapper.so",
-            ],
-            shared_libs: [
-                "libgcs-osal",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libgcs-ipc",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgcs-ipc.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libexpat",
-                "libgcs-osal",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgcs-ipc.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libexpat",
-                "libgcs-osal",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libgcs-osal",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgcs-osal.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgcs-osal.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libgcs",
-    owner: "nokia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libgcs.so",
-            ],
-            shared_libs: [
-                "libgcs-osal",
-                "libgcs-calwrapper",
-                "libgcs-ipc",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgcs.so",
-            ],
-            shared_libs: [
-                "libgcs-osal",
-                "libgcs-calwrapper",
-                "libgcs-ipc",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmmcamera2_frame_algorithm",
     owner: "nokia",
     strip: {
@@ -964,6 +754,37 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "sound_trigger.primary.msm8998",
+    owner: "nokia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libtinyalsa",
+                "libaudioroute",
+                "libexpat",
+                "libhardware_legacy",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
 }
@@ -4393,6 +4214,113 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgcs-calwrapper",
+    owner: "nokia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libgcs-calwrapper.so",
+            ],
+            shared_libs: [
+                "libgcs-osal",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgcs-ipc",
+    owner: "nokia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libgcs-ipc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libexpat",
+                "libgcs-osal",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgcs-osal",
+    owner: "nokia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libgcs-osal.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgcs",
+    owner: "nokia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libgcs.so",
+            ],
+            shared_libs: [
+                "libgcs-osal",
+                "libgcs-calwrapper",
+                "libgcs-ipc",
                 "liblog",
                 "libc++",
                 "libc",

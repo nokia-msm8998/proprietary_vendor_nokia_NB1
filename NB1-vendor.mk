@@ -78,11 +78,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     gatekeeper.msm8998 \
     keystore.msm8998 \
-    sound_trigger.primary.msm8998 \
-    libgcs-calwrapper \
-    libgcs-ipc \
-    libgcs-osal \
-    libgcs \
     libmmcamera2_frame_algorithm \
     libmmcamera2_is \
     libmmcamera2_q3a_core \
@@ -99,6 +94,7 @@ PRODUCT_PACKAGES += \
     sensor_calibrate \
     sensors.rangefinder \
     sensors.ssc \
+    sound_trigger.primary.msm8998 \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -267,6 +263,10 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3l8_front_nb1_zsl_video_3a \
     libdepthmapwrapper \
     libflash_pmic \
+    libgcs-calwrapper \
+    libgcs-ipc \
+    libgcs-osal \
+    libgcs \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
