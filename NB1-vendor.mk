@@ -82,8 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/firmware/tfa98xxEVT.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xxEVT.cnt
 
 PRODUCT_PACKAGES += \
-    gatekeeper.msm8998 \
-    keystore.msm8998 \
     libmmcamera2_frame_algorithm \
     libmmcamera2_is \
     libmmcamera2_q3a_core \
@@ -384,7 +382,9 @@ PRODUCT_PACKAGES += \
     libremosaic_daemon \
     libsmwrapper \
     fingerprint.msm8998 \
+    gatekeeper.msm8998 \
     gxfingerprint.default \
+    keystore.msm8998 \
     libfp_client \
     libfpservice \
     libpn548ad_fw \
